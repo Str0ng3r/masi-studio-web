@@ -1,0 +1,19 @@
+.sect {
+    background-image: url('../../img/purple-background.png');
+    width: 1480px;
+    background-size: cover;
+    height: 757px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.cont {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 62px;
+    box-sizing: content-box;
+}
