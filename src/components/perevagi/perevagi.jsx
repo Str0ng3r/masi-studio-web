@@ -10,15 +10,15 @@ export const Perevaga = () => {
   return (
     <section initial="hidden" whileInView="visible" className={styles.sect}>
       <div className={styles.cont}>
-        <h2 className={styles.h2_perevagi}>
+        <h2 className={styles.h2_perevagi}  data-aos="fade-up">
           Сайт є невід'ємною складовою сучасного бізнесу, і його наявність
           важлива з кількох ключових причин:
         </h2>
         <div className={styles.cont_wrap}>
-          <div className={styles.mini_wrap} data-aos="zoom-in">
+          <div className={styles.mini_wrap}>
             <div className={styles.text_wrap_left}>
-              <h3 className={styles.h3_perevagi}>Онлайн присутність</h3>
-              <h4 className={styles.h4_perevagi}>
+              <h3 className={styles.h3_perevagi}  data-aos="fade-right">Онлайн присутність</h3>
+              <h4 className={styles.h4_perevagi}  data-aos="fade-right">
                 В добу цифрового прогресу більшість <br />
                 клієнтів використовує Інтернет для пошуку <br />
                 товарів та послуг. <br /> <br /> Якщо ваша компанія не має
@@ -27,14 +27,14 @@ export const Perevaga = () => {
               </h4>
             </div>
 
-            <img src={laptop} alt="laptop" />
+            <img src={laptop} alt="laptop"  data-aos="fade-left"/>
           </div>
           <div className={styles.mini_wrap}>
-            <img src={clock} alt="clock" />
+            <img src={clock} alt="clock"  data-aos="fade-right"/>
 
             <div className={styles.text_wrap_right}>
-              <h3 className={styles.h3_perevagi}>Доступність 24/7</h3>
-              <h4 className={styles.right_text}>
+              <h3 className={styles.h3_perevagi}  data-aos="fade-left">Доступність 24/7</h3>
+              <h4 className={styles.right_text}  data-aos="fade-left">
                 Сайт працює цілодобово, що дозволяє клієнтам <br /> ознайомитися
                 з продуктами чи послугами у будь-який час. Це особливо важливо
                 для бізнесів <br /> оскільки вам не потрібно цілий день сидіти
@@ -44,18 +44,18 @@ export const Perevaga = () => {
           </div>
           <div className={styles.mini_wrap}>
             <div className={styles.text_wrap_left}>
-              <h3 className={styles.h3_perevagi}>Глобальний ринок</h3>
-              <h4 className={styles.h4_perevagi}>
+              <h3 className={styles.h3_perevagi}  data-aos="fade-right">Глобальний ринок</h3>
+              <h4 className={styles.h4_perevagi}  data-aos="fade-right">
                 Інтернет дозволяє долати географічні межі Ваш сайт може бути
                 доступний для користувачів з усього світу, що розширює вашу
                 потенційну впізнаваність.
               </h4>
             </div>
-            <img src={planet} alt="planet" />
+            <img src={planet} alt="planet"   data-aos="fade-left"/>
           </div>
           <div className={styles.mini_wrap}>
             <div className={styles.row_cont_text}>
-              <div className={styles.cont_for_double_text} data-aos="fade-up">
+              <div className={styles.cont_for_double_text} data-aos="fade-right">
                 <h4 className={styles.span_text}>
                   Прощавай папір та 2д картинки
                 </h4>
@@ -65,7 +65,7 @@ export const Perevaga = () => {
                   дізнаватись про ваш товар,ціну та умови.
                 </h5>
               </div>
-              <div className={styles.cont_for_double_text}>
+              <div className={styles.cont_for_double_text} data-aos="fade-up">
                 <h4 className={styles.span_text}>Персональний стиль</h4>
                 <h5 className={styles.h5_perevagi}>
                   Ваш бренд,продукція або початковий бізнес заграють новими
@@ -73,7 +73,7 @@ export const Perevaga = () => {
                   користувач запам’ятає надовго...
                 </h5>
               </div>
-              <div className={styles.cont_for_double_text}>
+              <div className={styles.cont_for_double_text}  data-aos="fade-left">
                 <h4 className={styles.span_text}>Зрозумілість</h4>
                 <h5 className={styles.h5_perevagi}>
                   Завдяки гарним фото якісно побудованому дизайну та
