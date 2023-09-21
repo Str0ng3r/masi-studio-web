@@ -64,3 +64,13 @@ line-height: 28px; /* 140% */
     bottom: 0;
     right: 20px;
 }
+
+@media screen and (max-width: 480px) {
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+}

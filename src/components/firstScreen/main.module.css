@@ -63,9 +63,35 @@ max-width: 160px;
 margin-right: 16px;
     } 
     .mainText {
-        font-size: 20px; 
-        line-height: 32px; /* 100% */
+        font-size: 22px; 
+        line-height: 24px; /* 100% */
     } 
 }
 
+@media screen and (max-width: 480px) {
+    .imgFinger {
+        max-width: 100px;
+            } 
+    .main_text {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .wrapContainer {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 334px) {
+    .imgFinger {
+        max-width:60px;
+            } 
+    .mainText {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+    .wrapContainer {
+        padding: 10px;
+    }
+}
 

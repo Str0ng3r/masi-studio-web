@@ -60,3 +60,12 @@ background-clip: text;
         padding: 40px 20px;
     }
 }
+@media screen and (max-width: 480px) {
+    .sect {
+        padding: 20px 20px;
+    }
+    .main_text_garants {
+        font-size: 16px; 
+        line-height:18px;
+    }
+}

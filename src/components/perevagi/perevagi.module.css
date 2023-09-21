@@ -249,3 +249,112 @@ text-align: left;
         margin-bottom: 10px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .img_perevagi {
+        width: 100px;
+    }
+    .h2_perevagi {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .h3_perevagi {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .h4_perevagi {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .right_text {
+        color: #E2E0FE;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 140% */
+        text-align: right;
+    }
+    .span_text {
+        font-size: 14px;
+        margin: 0;
+        line-height: 16px;
+    }
+    .h5_perevagi {
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 440px) {
+    .img_perevagi {
+        width: 80px;
+    }
+    .h2_perevagi {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .h3_perevagi {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .h4_perevagi {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .right_text {
+        color: #E2E0FE;
+        font-family: Manrope;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px; /* 140% */
+        text-align: right;
+    }
+    .span_text {
+        font-size: 10px;
+        margin: 0;
+        line-height: 12px;
+    }
+    .h5_perevagi {
+        font-size: 9px;
+        line-height: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 380px) {
+    .img_perevagi {
+        width: 60px;
+    }
+    .h2_perevagi {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .h3_perevagi {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .h4_perevagi {
+        font-size: 6px;
+        line-height: 8px;
+    }
+    .right_text {
+        color: #E2E0FE;
+        font-family: Manrope;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px; /* 140% */
+        text-align: right;
+    }
+    .span_text {
+        font-size: 8px;
+        margin: 0;
+        line-height: 10px;
+    }
+    .h5_perevagi {
+        font-size: 6px;
+        line-height: 8px;
+        text-align: center;
+    }
+}
