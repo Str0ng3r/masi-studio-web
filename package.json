@@ -1,5 +1,5 @@
 {
-  "homepage":"https://str0ng3r.github.io/masi-studio-web",
+  "homepage": "https://str0ng3r.github.io/masi-studio-web",
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "framer-motion": "^10.16.4",
     "gh-pages": "^6.0.0",
     "ionicons": "^7.1.2",
+    "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-favicon": "^2.0.3",
@@ -27,8 +28,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

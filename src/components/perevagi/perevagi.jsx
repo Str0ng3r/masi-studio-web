@@ -27,10 +27,10 @@ export const Perevaga = () => {
               </h4>
             </div>
 
-            <img src={laptop} alt="laptop"  data-aos="fade-left"/>
+            <img src={laptop} alt="laptop"  data-aos="fade-left" className={styles.img_perevagi } />
           </div>
           <div className={styles.mini_wrap}>
-            <img src={clock} alt="clock"  data-aos="fade-right"/>
+            <img src={clock} alt="clock"  data-aos="fade-right" className={styles.img_perevagi } />
 
             <div className={styles.text_wrap_right}>
               <h3 className={styles.h3_perevagi}  data-aos="fade-left">Доступність 24/7</h3>
@@ -51,7 +51,7 @@ export const Perevaga = () => {
                 потенційну впізнаваність.
               </h4>
             </div>
-            <img src={planet} alt="planet"   data-aos="fade-left"/>
+            <img src={planet} alt="planet"   data-aos="fade-left" className={styles.img_perevagi } />
           </div>
           <div className={styles.mini_wrap}>
             <div className={styles.row_cont_text}>
@@ -84,8 +84,8 @@ export const Perevaga = () => {
             </div>
           </div>
         </div>
-        <img src={line} alt="line" className={styles.img_footer} />
       </div>
+      <img src={line} alt="line" className={styles.img_footer} />
     </section>
   );
 };

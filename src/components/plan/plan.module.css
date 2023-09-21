@@ -1,12 +1,13 @@
 .sect {
     background-image: url('../../img/plan-back.png');
-    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 0 20px 20px 20px;
     background-repeat: repeat;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .container {
     display: flex;
@@ -122,4 +123,99 @@ box-sizing: border-box;
 .purple_line {
     width: 1280px;
     height: 86px;
+}
+@media screen and (max-width: 1340px) {
+    .purple_line {
+        width:80%;
+        height: 86px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main_text {
+        font-size: 46px;
+        line-height: 48px;
+    }
+    .h3_plan {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .line {
+        height: 400px;
+    }
+
+    .wrap_punkt {
+        top: -24px;
+        width: auto;
+        white-space: nowrap;
+
+    }
+    .wrap_punkt:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: -12px;
+        top: 70px;
+        white-space: nowrap;
+        width: auto;
+    }
+    .wrap_punkt:nth-child(3) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: -12px;
+        top: 140px;
+        white-space: nowrap;
+        width: auto;
+    }
+    .wrap_punkt:nth-child(4) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: -12px;
+        top:210px;
+        width: auto;
+        white-space: nowrap;
+    }
+    .wrap_punkt:nth-child(5) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: -12px;
+        top: 280px;
+          white-space: nowrap;
+          width: auto;
+    }
+    .wrap_punkt:nth-child(6) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        left: -12px;
+        top: 350px;
+        white-space: nowrap;
+        width: auto;
+    }
+
+
+}
+@media screen and (max-width: 580px) {
+    .main_text {
+        font-size: 30px;
+        line-height: 32px;
+        margin-top: 40px;
+    }
+    .h3_plan {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

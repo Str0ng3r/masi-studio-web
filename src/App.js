@@ -12,11 +12,11 @@ function App() {
 
           <Header></Header>
           <Main></Main>
-          <Work></Work>
-          <Garant></Garant>
+           <Work></Work>
+           <Garant></Garant>
           <Perevaga></Perevaga>
           <Plan></Plan>
-          <Footer></Footer>
+          <Footer></Footer> 
     </div>
   );
 }

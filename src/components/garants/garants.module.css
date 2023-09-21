@@ -2,8 +2,9 @@
     background-image: url('../../img/back-sfera.png');
     background-position: center;
     background-size: cover;
-    width: 1440px;
     padding: 134px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .container {
     display: flex;
@@ -11,6 +12,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+     overflow: hidden;
 }
 .main_text_garants {
     text-align: center;
@@ -23,4 +25,38 @@ background: linear-gradient(180deg, #ED72FE 0%, #C8C7FE 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1340px) {
+    .sect {
+        padding: 60px 20px;
+    }
+
+    .main_text_garants {
+        font-size: 38px; 
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .main_text_garants {
+        font-size: 28px; 
+        line-height:30px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .main_text_garants {
+        font-size: 24px; 
+        line-height:26px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .main_text_garants {
+        font-size: 18px; 
+        line-height:26px;
+    }
+    .sect {
+        padding: 40px 20px;
+    }
 }

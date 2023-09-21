@@ -3,7 +3,9 @@ height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .img_logo {
     height: 100%;
 }
+

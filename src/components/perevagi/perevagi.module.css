@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 
-
+div {
+    box-sizing: border-box;
+}
 .sect {
-    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,6 +11,7 @@
     background-image: url(../../img/back.png);
     padding: 20px;
     padding-bottom: 0px;
+    overflow: hidden;
 }
 .h2_perevagi {
     color: #FFF;
@@ -119,4 +121,131 @@ text-align: left;
 }
 .img_footer {
     width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .mini_wrap {
+        width: auto;
+    }
+    .img_perevagi {
+        width: 300px;
+    }
+.h2_perevagi {
+    font-size: 28px;
+    line-height: 30px;
+}
+.h3_perevagi {
+    font-size: 30px;
+    line-height: 32px;
+}
+.h4_perevagi {
+    font-size: 20px;
+    line-height: 22px;
+}
+.right_text {
+    color: #E2E0FE;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 140% */
+    text-align: right;
+}
+.span_text {
+    font-size: 20px;
+}
+.h5_perevagi {
+    font-size: 20px;
+    line-height: 22px;
+}
+}
+
+@media screen and (max-width: 860px) {
+    .img_perevagi {
+        width: 200px;
+    }
+    .h2_perevagi {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .h3_perevagi {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .h4_perevagi {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .right_text {
+        color: #E2E0FE;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 140% */
+        text-align: right;
+    }
+    .text_wrap_left  {
+        gap: 0;
+    }
+    .text_wrap_right {
+        gap:0;
+    }
+    .span_text {
+        font-size: 18px;
+        margin: 0;
+    }
+    .h5_perevagi {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .mini_wrap {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .img_perevagi {
+        width: 140px;
+    }
+    .h2_perevagi {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .h3_perevagi {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .h4_perevagi {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .right_text {
+        color: #E2E0FE;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 140% */
+        text-align: right;
+    }
+    .text_wrap_left  {
+        gap: 0;
+    }
+    .text_wrap_right {
+        gap:0;
+    }
+    .span_text {
+        font-size: 16px;
+        margin: 0;
+        line-height: 18px;
+    }
+    .h5_perevagi {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .mini_wrap {
+        margin-bottom: 10px;
+    }
 }

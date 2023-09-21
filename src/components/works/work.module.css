@@ -1,11 +1,11 @@
 .sect {
     background-image: url('../../img/purple-background.png');
-    width: 1480px;
     background-size: cover;
-    height: 757px;
     background-position: center;
     background-repeat: no-repeat;
     margin: 0;
+    padding: 100px 0px;
+    overflow: hidden;
 }
 .cont {
     flex-direction: column;

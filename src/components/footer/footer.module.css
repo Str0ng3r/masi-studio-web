@@ -6,6 +6,8 @@
     background-color:#0C1013 ;
     padding: 64px 0px;
     position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .container {
     margin: 0 auto;
