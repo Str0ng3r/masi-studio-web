@@ -16,4 +16,9 @@
     align-items: center;
     padding: 20px 62px;
     box-sizing: content-box;
+    overflow: hidden;
+}
+.swiper {
+    width: 1000px;
+    height: 400px;
 }
