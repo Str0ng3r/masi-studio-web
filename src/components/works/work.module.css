@@ -42,7 +42,7 @@
 
 .card {
     overflow: visible;
-    width: 800px;
+    width: 80%;
     height: 400px;
     position: relative;
   }
@@ -262,3 +262,119 @@ background-size: cover;
       transform: translateY(0px);
     }
   }
+
+
+  @media screen and (max-width: 1200px) {
+.swiper {
+  width: 800px;
+}
+.card {
+  height: 100%;
+}
+.sect {
+  padding: 40px 0px;
+}
+.cont {
+  width: auto;
+  padding: 20px 40px;
+}
+.title {
+  font-size: 40px;
+}
+}
+@media screen and (max-width: 950px) {
+  .swiper {
+    width: 600px;
+    height: 260px;
+    box-sizing: content-box;
+  }
+  .card {
+    height: 100%;
+  }
+  .sect {
+    padding: 30px 0px;
+  }
+  .cont {
+    width: auto;
+    padding: 10px 30px; 
+  }
+.back_content{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back_content_icecream{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back_content_film{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 40px;
+}
+  }
+  @media screen and (max-width: 744px) {
+    .swiper {
+      width: 400px;
+      height: 200px;
+      box-sizing: content-box;
+    }
+    .card {
+      height: 100%;
+    }
+    .sect {
+      padding: 20px 0px;
+    }
+    .cont {
+      width: auto;
+      padding: 10px 20px;
+    }
+    .title {
+      font-size:20px;
+    }
+    .card_footer {
+      font-size: 12px;
+    }
+  .back_content{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .back_content_icecream{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .back_content_film{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+    }
+    @media screen and (max-width: 460px) {
+      .swiper {
+        width: 280px;
+        height: 160px;
+        box-sizing: content-box;
+      }
+      .card {
+        height: 100%;
+      }
+      .sect {
+        padding: 10px 0px;
+      }
+      .cont {
+        width: auto;
+        padding: 10px 20px;
+      }
+    .back_content{
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .back_content_icecream{
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .back_content_film{
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+      }
