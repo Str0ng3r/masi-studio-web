@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/masi-studio-web/static/css/main.2c5dba5b.css",
-    "main.js": "/masi-studio-web/static/js/main.e88cb355.js",
+    "main.css": "/masi-studio-web/static/css/main.a173b760.css",
+    "main.js": "/masi-studio-web/static/js/main.f7dae94d.js",
     "static/js/787.a9120f67.chunk.js": "/masi-studio-web/static/js/787.a9120f67.chunk.js",
     "static/media/back.png": "/masi-studio-web/static/media/back.011572e69a97aa3fc430.png",
+    "static/media/image9999.png": "/masi-studio-web/static/media/image9999.9a5b8c3b34fb146e2996.png",
     "static/media/plan-back.png": "/masi-studio-web/static/media/plan-back.640bd558aabfad29160f.png",
     "static/media/back-sfera.png": "/masi-studio-web/static/media/back-sfera.15f920dbda35fe996a75.png",
+    "static/media/imagerrrr.png": "/masi-studio-web/static/media/imagerrrr.bfe05321dbc74237dbd0.png",
     "static/media/рпарап.png": "/masi-studio-web/static/media/рпарап.8c64ccf07e288573caf0.png",
     "static/media/purple-background.png": "/masi-studio-web/static/media/purple-background.bfda46461ab0bfdd2463.png",
     "static/media/div.png": "/masi-studio-web/static/media/div.6c102e52c3bd16cb4753.png",
+    "static/media/ice-cream.png": "/masi-studio-web/static/media/ice-cream.10a06238c2d1a680bd16.png",
     "static/media/logo.png": "/masi-studio-web/static/media/logo.f8e8afd577e5f5220650.png",
     "static/media/CLOCK.png": "/masi-studio-web/static/media/CLOCK.5f370c9f17ea6c27bdb8.png",
     "static/media/LAPTOP 1.png": "/masi-studio-web/static/media/LAPTOP 1.3f1aca2352e928f6b7ad.png",
     "static/media/Edge_Deployment_V3_Edit_IW59NHEbvz-IXMoQBPJXi.png.png": "/masi-studio-web/static/media/Edge_Deployment_V3_Edit_IW59NHEbvz-IXMoQBPJXi.png.0d5df4205ad28984875a.png",
     "static/media/purple-line.png": "/masi-studio-web/static/media/purple-line.62fd59dcf1d456d7a0de.png",
     "index.html": "/masi-studio-web/index.html",
-    "main.2c5dba5b.css.map": "/masi-studio-web/static/css/main.2c5dba5b.css.map",
-    "main.e88cb355.js.map": "/masi-studio-web/static/js/main.e88cb355.js.map",
+    "main.a173b760.css.map": "/masi-studio-web/static/css/main.a173b760.css.map",
+    "main.f7dae94d.js.map": "/masi-studio-web/static/js/main.f7dae94d.js.map",
     "787.a9120f67.chunk.js.map": "/masi-studio-web/static/js/787.a9120f67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5dba5b.css",
-    "static/js/main.e88cb355.js"
+    "static/css/main.a173b760.css",
+    "static/js/main.f7dae94d.js"
   ]
 }
