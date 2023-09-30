@@ -234,6 +234,50 @@ background-size: cover;
     height: 50px;
     animation-delay: -1800ms;
   }
+
+
+  .button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    cursor: pointer;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    font-family: Manrope;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button_content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+
   .left_circle {
     width: 90px;
     height: 90px;
@@ -249,6 +293,193 @@ background-size: cover;
     animation-delay: -1800ms;
   }
   
+
+
+
+.modal_window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: rgba(0, 0, 0, 0.6);
+z-index: 999;
+}
+  .form_modal {
+    max-width: 400px;
+    padding: 56px 42px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #151929;
+    gap: 16px;
+    position: relative;
+  }
+  .label_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    gap: 4px;
+}
+.label_email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: #FFFFFF;
+  font-weight: 500;
+  gap: 4px;
+}
+  .input_email {
+    width: 200px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+    color: #151515;
+    font-family: Manrope;
+    border-radius: 4px;
+    margin-right: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px;
+  }
+  .input_name {
+    width: 100px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+    color: #151515;
+    font-family: Manrope;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px;
+  }
+
+
+
+  .label_social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    gap: 4px;
+  }
+  .input_social {
+    width: 100px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+    color: #151515;
+    font-family: Manrope;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px;
+  }
+  .text_call {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: Manrope;
+  }
+
+
+
+.cross {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.img_cross {
+  width: 100%;
+}
+
+
+  .button_send {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+   }
+   
+   .button_send::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .button_send:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .button_send:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @keyframes floating {
     0% {
       transform: translateY(0px);
