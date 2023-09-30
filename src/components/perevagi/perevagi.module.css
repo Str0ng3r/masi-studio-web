@@ -195,6 +195,7 @@ text-align: left;
     .span_text {
         font-size: 18px;
         margin: 0;
+        line-height: 19px;
     }
     .h5_perevagi {
         font-size: 16px;
