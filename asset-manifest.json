@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/masi-studio-web/static/css/main.7070645b.css",
-    "main.js": "/masi-studio-web/static/js/main.a9a8b77e.js",
+    "main.js": "/masi-studio-web/static/js/main.e8ee6a05.js",
     "static/js/787.a9120f67.chunk.js": "/masi-studio-web/static/js/787.a9120f67.chunk.js",
     "static/media/back.png": "/masi-studio-web/static/media/back.011572e69a97aa3fc430.png",
     "static/media/image9999.png": "/masi-studio-web/static/media/image9999.9a5b8c3b34fb146e2996.png",
@@ -21,11 +21,11 @@
     "static/media/cross.png": "/masi-studio-web/static/media/cross.1415964a27513d260ea1.png",
     "index.html": "/masi-studio-web/index.html",
     "main.7070645b.css.map": "/masi-studio-web/static/css/main.7070645b.css.map",
-    "main.a9a8b77e.js.map": "/masi-studio-web/static/js/main.a9a8b77e.js.map",
+    "main.e8ee6a05.js.map": "/masi-studio-web/static/js/main.e8ee6a05.js.map",
     "787.a9120f67.chunk.js.map": "/masi-studio-web/static/js/787.a9120f67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7070645b.css",
-    "static/js/main.a9a8b77e.js"
+    "static/js/main.e8ee6a05.js"
   ]
 }
