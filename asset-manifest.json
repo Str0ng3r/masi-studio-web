@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/masi-studio-web/static/css/main.a173b760.css",
-    "main.js": "/masi-studio-web/static/js/main.f7dae94d.js",
+    "main.css": "/masi-studio-web/static/css/main.2433f5e2.css",
+    "main.js": "/masi-studio-web/static/js/main.a8ffe9b4.js",
     "static/js/787.a9120f67.chunk.js": "/masi-studio-web/static/js/787.a9120f67.chunk.js",
     "static/media/back.png": "/masi-studio-web/static/media/back.011572e69a97aa3fc430.png",
     "static/media/image9999.png": "/masi-studio-web/static/media/image9999.9a5b8c3b34fb146e2996.png",
@@ -17,13 +17,14 @@
     "static/media/LAPTOP 1.png": "/masi-studio-web/static/media/LAPTOP 1.3f1aca2352e928f6b7ad.png",
     "static/media/Edge_Deployment_V3_Edit_IW59NHEbvz-IXMoQBPJXi.png.png": "/masi-studio-web/static/media/Edge_Deployment_V3_Edit_IW59NHEbvz-IXMoQBPJXi.png.0d5df4205ad28984875a.png",
     "static/media/purple-line.png": "/masi-studio-web/static/media/purple-line.62fd59dcf1d456d7a0de.png",
+    "static/media/cross.png": "/masi-studio-web/static/media/cross.1415964a27513d260ea1.png",
     "index.html": "/masi-studio-web/index.html",
-    "main.a173b760.css.map": "/masi-studio-web/static/css/main.a173b760.css.map",
-    "main.f7dae94d.js.map": "/masi-studio-web/static/js/main.f7dae94d.js.map",
+    "main.2433f5e2.css.map": "/masi-studio-web/static/css/main.2433f5e2.css.map",
+    "main.a8ffe9b4.js.map": "/masi-studio-web/static/js/main.a8ffe9b4.js.map",
     "787.a9120f67.chunk.js.map": "/masi-studio-web/static/js/787.a9120f67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a173b760.css",
-    "static/js/main.f7dae94d.js"
+    "static/css/main.2433f5e2.css",
+    "static/js/main.a8ffe9b4.js"
   ]
 }
