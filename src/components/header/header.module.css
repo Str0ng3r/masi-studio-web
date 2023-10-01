@@ -8,4 +8,16 @@ height: 50px;
 .img_logo {
     height: 100%;
 }
+.main_name {
+    font-family: Manrope;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(106deg, #542E66 14.64%, #860151 100.02%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0;
+}
 

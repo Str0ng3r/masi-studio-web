@@ -512,6 +512,9 @@ z-index: 999;
 .title {
   font-size: 40px;
 }
+.form_modal {
+  max-width: 360px;
+}
 }
 @media screen and (max-width: 950px) {
   .swiper {
@@ -528,6 +531,9 @@ z-index: 999;
   .cont {
     width: auto;
     padding: 10px 30px; 
+  }
+  .form_modal {
+    max-width: 300px;
   }
 .back_content{
   background-size: cover;
@@ -561,6 +567,9 @@ z-index: 999;
       width: auto;
       padding: 10px 20px;
     }
+    .form_modal {
+      max-width: 280px;
+    }
     .title {
       font-size:20px;
     }
@@ -588,6 +597,9 @@ z-index: 999;
       }
       .card {
         height: 100%;
+      }
+      .form_modal {
+        max-width: 200px;
       }
       .sect {
         padding: 10px 0px;
